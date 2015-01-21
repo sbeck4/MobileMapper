@@ -14,6 +14,8 @@
 		83D2EA2B1A6ED70600F88C27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D2EA2A1A6ED70600F88C27 /* Images.xcassets */; };
 		83D2EA2E1A6ED70600F88C27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D2EA2C1A6ED70600F88C27 /* LaunchScreen.xib */; };
 		83D2EA3A1A6ED70600F88C27 /* MobileMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D2EA391A6ED70600F88C27 /* MobileMapperTests.m */; };
+		83D2EA441A6ED71A00F88C27 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D2EA431A6ED71A00F88C27 /* MapKit.framework */; };
+		83D2EA461A6EE12100F88C27 /* mobilemakers.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D2EA451A6EE12100F88C27 /* mobilemakers.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		83D2EA331A6ED70600F88C27 /* MobileMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D2EA381A6ED70600F88C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D2EA391A6ED70600F88C27 /* MobileMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileMapperTests.m; sourceTree = "<group>"; };
+		83D2EA431A6ED71A00F88C27 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83D2EA451A6EE12100F88C27 /* mobilemakers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mobilemakers.png; path = ../../../../mobilemakers.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D2EA441A6ED71A00F88C27 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		83D2EA111A6ED70600F88C27 = {
 			isa = PBXGroup;
 			children = (
+				83D2EA431A6ED71A00F88C27 /* MapKit.framework */,
 				83D2EA1C1A6ED70600F88C27 /* MobileMapper */,
 				83D2EA361A6ED70600F88C27 /* MobileMapperTests */,
 				83D2EA1B1A6ED70600F88C27 /* Products */,
@@ -96,6 +102,7 @@
 		83D2EA1D1A6ED70600F88C27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83D2EA451A6EE12100F88C27 /* mobilemakers.png */,
 				83D2EA1E1A6ED70600F88C27 /* Info.plist */,
 				83D2EA1F1A6ED70600F88C27 /* main.m */,
 			);
@@ -201,6 +208,7 @@
 			files = (
 				83D2EA291A6ED70600F88C27 /* Main.storyboard in Resources */,
 				83D2EA2E1A6ED70600F88C27 /* LaunchScreen.xib in Resources */,
+				83D2EA461A6EE12100F88C27 /* mobilemakers.png in Resources */,
 				83D2EA2B1A6ED70600F88C27 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
